@@ -3,8 +3,9 @@ import { Link } from "react-router";
 
 const Navbar = () => {
     const links = <>
-    <Link to={'/'}><li className="m-2">Home</li></Link>
+    <Link className="cursor-pointer" to={'/'}><li className="m-2">Home</li></Link>
     <Link className="cursor-pointer" to={'/about'}><li className="m-2">About</li></Link>
+    <Link className="cursor-pointer" to={'/readList'}><li className="m-2">Read List</li></Link>
     </>
   return (
     <div className="navbar max-w-7xl mx-auto bg-base-100 shadow-sm">
